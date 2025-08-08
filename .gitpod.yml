@@ -1,0 +1,9 @@
+image:
+  figmentnetworks/solana-dev-tools:v1.1.0-sol-v1.10.35
+
+tasks:
+  - command: |
+      echo "✅ Environment Ready!"
+      echo "This environment has stable, compatible tools pre-installed."
+      solana --version
+      anchor --version
